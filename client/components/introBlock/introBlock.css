@@ -1,0 +1,15 @@
+.intro-block {
+    width: calc(100% - 60px);
+    max-width: 1105px;
+    margin: 70px 0;
+}
+
+.intro-block__description {
+    margin: 15px 0 25px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .intro-block {
+        width: calc(100% - 300px);
+    }
+}

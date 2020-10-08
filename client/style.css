@@ -1,0 +1,26 @@
+@import './components/cta/cta.css';
+@import './components/introBlock/introBlock.css';
+@import './components/userDataTable/userDataTable.css';
+@import './components/modalOverlay/modalOverlay.css';
+@import './components/addUserModal/addUserModal.css';
+@import './components/userDataModal/userDataModal.css';
+
+body {
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+input {
+    font-family: inherit;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.app-root {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}

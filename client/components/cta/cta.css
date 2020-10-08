@@ -1,0 +1,63 @@
+.cta {
+    display: block;
+    padding: 3px 10px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    background: white;
+    appearance: none;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+.cta--primary {
+    border: 1px solid #ff8635;
+    background: #ff8635;
+    min-width: 65px;
+}
+
+.cta--secondary {
+    border: 1px solid #35d0ff;
+    background: #35d0ff;
+}
+
+.cta--primary,
+.cta--secondary {
+    min-width: 65px;
+}
+
+.cta--close {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    border: none;
+    padding: 0;
+}
+
+.cta--close:hover {
+    opacity: 1;
+}
+
+.cta--close:before,
+.cta--close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+
+.cta--close:before {
+    transform: rotate(45deg);
+}
+
+.cta--close:after {
+    transform: rotate(-45deg);
+}
