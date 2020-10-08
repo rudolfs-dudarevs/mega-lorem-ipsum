@@ -16,4 +16,4 @@ This allows to create nested DOM structures, pass props and set attributes using
 Functions prefixed with '$' return a DOM structure.<br>
 
 *Disclaimer:* <br>
-The syntax of DOM structures as functions passed within functions might hurt your eyes. But it works.. Just takes time to adjust.. ;D*
+*The syntax of DOM structures as functions passed within functions might hurt your eyes. But it works.. Just takes time to adjust.. ;D*
