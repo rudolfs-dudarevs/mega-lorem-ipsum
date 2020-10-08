@@ -3,6 +3,13 @@
 <br>
 Create a user data table with CRUD functionality using only vanilla JavaScript and imitate a modern FE framework concept (Vue, React, etc.).
 
+# Features
+
+- Add, update, delete user data.
+- Each row data accessible in a modal with a share URL.
+- Close modal by pressing ESC or X.
+- Responsive.
+
 # Get it running
 
 1) `cd server` <br>
