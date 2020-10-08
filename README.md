@@ -3,21 +3,21 @@
 <br>
 Create a user data table with CRUD functionality using only vanilla JavaScript and imitate a modern FE framework concept (Vue, React, etc.).
 
-# Features
+## Features
 
 - Add, update, delete user data.
 - Each row data accessible in a modal with a share URL.
 - Close modal by pressing ESC or X.
 - Responsive.
 
-# Get it running
+## Get it running
 
 1) `cd server` <br>
 2) `npm install` <br>
 3) `npm run start-dev` <br>
 4) http://localhost:3000/
 
-# Component system
+## Component system
 *JavaScriptTemplater* class serves as a mixin to components that provides an abstraction for boilerplate code to create HTML elements. <br>
 This allows to create nested DOM structures, pass props and set attributes using JS functions. <br>
 Functions prefixed with '$' return a DOM structure.<br>
