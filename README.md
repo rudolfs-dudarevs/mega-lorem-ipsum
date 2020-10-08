@@ -15,5 +15,5 @@ Create a user data table with CRUD functionality using only vanilla JavaScript a
 This allows to create nested DOM structures, pass props and set attributes using JS functions. <br>
 Functions prefixed with '$' return a DOM structure.<br>
 
-*Disclaimer:* <br>
+# *Disclaimer:* <br>
 *The syntax of DOM structures as functions passed within functions might hurt your eyes. But it works.. Just takes time to adjust.. :)*
